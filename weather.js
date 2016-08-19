@@ -1,5 +1,6 @@
-var clicked = false;
+
 $(document).ready(function() {
+  var clicked = false;
   var xhr = new XMLHttpRequest(); //to be used in fething weather json data from open weather api
   var getLoc = new XMLHttpRequest(); //new http request to get city name,country code
 
